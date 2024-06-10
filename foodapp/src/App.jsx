@@ -5,7 +5,7 @@ import Nav from './components/Nav'
 import "./App.css";
 import Container from './components/Container';
 import InnerContainer from './components/InnerContainer';
-import FoodDeltail from './components/FoodDetail';
+import FoodDeltails from './components/FoodDetails';
 
 
 
@@ -22,7 +22,7 @@ const [foodId, setFoodId] =useState("")
           <FoodList setFoodId={setFoodId} foodData={foodData} />
         </InnerContainer>
         <InnerContainer>
-          <FoodDeltail foodId={foodId} />
+          <FoodDeltails foodId={foodId} />
         </InnerContainer>
       </Container>
     </div>
